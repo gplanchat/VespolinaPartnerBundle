@@ -18,8 +18,9 @@
         "vespolina/core": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Vespolina\\PartnerBundle": "" }
+        "psr-4": {
+            "Vespolina\\PartnerBundle\\": ""
+        }
     },
-    "target-dir": "Vespolina/PartnerBundle",
     "minimum-stability": "dev"
 }
