@@ -22,5 +22,11 @@
             "Vespolina\\PartnerBundle\\": ""
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vespolina/core.git"
+        }
+    ],
     "minimum-stability": "dev"
 }
