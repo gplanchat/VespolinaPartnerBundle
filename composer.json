@@ -13,13 +13,20 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/symfony": ">=2.1.*",
+        "symfony/symfony": "~2.1",
         "doctrine/mongodb-odm-bundle": "*",
         "vespolina/core": "*"
     },
     "autoload": {
-        "psr-0": { "Vespolina\\PartnerBundle": "" }
+        "psr-4": {
+            "Vespolina\\PartnerBundle\\": ""
+        }
     },
-    "target-dir": "Vespolina/PartnerBundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vespolina/core.git"
+        }
+    ],
     "minimum-stability": "dev"
 }
